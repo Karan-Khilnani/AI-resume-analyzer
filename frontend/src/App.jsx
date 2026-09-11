@@ -51,7 +51,7 @@ function App() {
 
     try {
       const response = await fetch(
-        `${API_URL}/api/analyze-resume`,
+        "https://ai-resume-analyzer-1-zjnp.onrender.com/api/analyze-resume",
         {
           method: "POST",
           body: formData,
